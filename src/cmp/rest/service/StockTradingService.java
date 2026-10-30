@@ -1,7 +1,5 @@
 package cmp.rest.service;
 
-import org.springframework.stereotype.Service;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.DayOfWeek;
@@ -17,7 +15,6 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.UUID;
 
-@Service
 public class StockTradingService {
     private static final ZoneId MARKET_ZONE = ZoneId.of("Asia/Kolkata");
     private static final LocalTime MARKET_OPEN = LocalTime.of(9, 15);
